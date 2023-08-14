@@ -1,0 +1,28 @@
+h1 {
+    background-color: aqua;
+}
+
+body {
+    background-color:paleturquoise;
+}
+
+img {
+    position: relative;
+}
+
+body, div {
+    margin: 0;
+    padding: 0;
+}
+
+.record {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, .questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
