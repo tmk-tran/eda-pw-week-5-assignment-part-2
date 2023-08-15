@@ -1,21 +1,39 @@
+header {
+    background-color: midnightblue;
+    color: ghostwhite;
+    padding: 15px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    background-color: lightgray;
+}
+
 body {
     background-color:paleturquoise;
 }
 
-img {
-    position: relative;
+.record {
+    background-image: url( 'record.png' );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+
+/* img { */
+    /* position: relative; */
+/* } */
 
 body, div {
     margin: 0;
     padding: 0;
 }
 
-.record {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 h2, .questions {
     display: flex;
